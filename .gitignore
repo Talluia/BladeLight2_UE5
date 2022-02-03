@@ -7,6 +7,7 @@
 *.o
 *.obj
 
+
 # Precompiled Headers
 *.gch
 *.pch
@@ -35,3 +36,5 @@
 *.ilk
 *.pdb
 *.exp
+*.db
+*.ucas
