@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-VRM4ULoader.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"G:\BladeLight2\BladeLight2_UE5\Intermediate\Build\Win64\BladeLight2_UE5Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"G:\BladeLight2\BladeLight2_UE5\Plugins\VRM4U\Intermediate\Build\Win64\UnrealEditor\Development\VRM4ULoader\Module.VRM4ULoader.cpp.obj"
+"G:\BladeLight2\BladeLight2_UE5\Plugins\VRM4U\Intermediate\Build\Win64\UnrealEditor\Development\VRM4ULoader\Module.VRM4ULoader.gen.cpp.obj"
+"G:\BladeLight2\BladeLight2_UE5\Plugins\VRM4U\Intermediate\Build\Win64\UnrealEditor\Development\VRM4ULoader\Default.rc2.res"
+/OUT:"G:\BladeLight2\BladeLight2_UE5\Plugins\VRM4U\Intermediate\Build\Win64\UnrealEditor\Development\VRM4ULoader\UnrealEditor-VRM4ULoader.lib"
+/INCLUDE:IMPLEMENT_MODULE_VRM4ULoader

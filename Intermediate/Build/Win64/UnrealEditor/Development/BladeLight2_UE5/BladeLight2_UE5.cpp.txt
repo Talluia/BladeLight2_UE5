@@ -1,0 +1,2 @@
+G:\BladeLight2\BladeLight2_UE5\Intermediate\Build\Win64\UnrealEditor\Development\BladeLight2_UE5\Definitions.BladeLight2_UE5.h
+G:\BladeLight2\BladeLight2_UE5\Source\BladeLight2_UE5\BladeLight2_UE5.h

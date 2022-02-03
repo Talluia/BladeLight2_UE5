@@ -1,0 +1,489 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\BladeLight2_UE5.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{562B67B2-D5B7-4D95-AFA2-843A818B74A0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\BladeLight2_UE5.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\BladeLight2_UE5Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\LICENSE.md" />
+    <None Include="..\..\README.md" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{1AA2E1FC-244B-46B0-90C7-132AA4D1525D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{E53FE57F-EADC-4D81-AED0-96B90CA1FC89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\VRM4U">
+      <UniqueIdentifier>{3C8C2DF5-8ECF-4AEB-8407-64DE6C8EEF9E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\VRM4U\Source">
+      <UniqueIdentifier>{F83C66BE-8E2F-415E-B4EB-1EC37EC7F8BA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\VRM4U\Source\VRM4U">
+      <UniqueIdentifier>{1694DE2B-6491-4D1C-A127-7AB8D92B6249}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\VRM4U\Source\VRM4U\VRM4U.Build.cs">
+      <Filter>Plugins\VRM4U\Source\VRM4U</Filter>
+    </None>
+    <Filter Include="Plugins\VRM4U\Source\VRM4U\Private">
+      <UniqueIdentifier>{E92D4476-11CE-4FD3-B15E-2135C612BD8E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\AnimNode_VrmCopyHandBone.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\AnimNode_VrmModifyBoneDynamic.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\AnimNode_VrmModifyBoneList.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\AnimNode_VrmModifyHumanoidBone.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\AnimNode_VrmQuestHandBone.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\AnimNode_VrmRetargetFromMannequin.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\AnimNode_VrmSpringBone.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\AnimNode_VrmVMC.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\VRM4U.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\VRM4U_VMCSubsystem.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\VrmAnimInstance.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\VrmAnimInstanceCopy.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\VrmAssetListObject.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\VrmBPFunctionLibrary.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\VrmCameraCheckComponent.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\VrmCustomStruct.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\VrmDropFiles.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\VrmEditorEventComponent.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\VrmHMDTrackingComponent.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\VrmHMDTrackingComponent.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\VrmImportMaterialSet.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\VrmLicenseObject.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\VrmMetaObject.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\VrmModelActor.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\VrmPoseableMeshComponent.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\VrmRuntimeSettings.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\VrmUtil.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\VrmUtilImage.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\VRM4U\Source\VRM4U\Public">
+      <UniqueIdentifier>{9C6DBD2F-FC5D-43F3-BE9D-1B1CB38F75AA}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Public\AnimNode_VrmCopyHandBone.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Public\AnimNode_VrmModifyBoneDynamic.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Public\AnimNode_VrmModifyBoneList.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Public\AnimNode_VrmModifyHumanoidBone.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Public\AnimNode_VrmQuestHandBone.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Public\AnimNode_VrmRetargetFromMannequin.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Public\AnimNode_VrmSpringBone.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Public\AnimNode_VrmVMC.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Public\VRM4U.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Public\VRM4U_VMCSubsystem.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Public\VrmAnimInstance.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Public\VrmAnimInstanceCopy.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Public\VrmAssetListObject.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Public\VrmBPFunctionLibrary.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Public\VrmCameraCheckComponent.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Public\VrmCustomStruct.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Public\VrmDropFiles.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Public\VrmEditorEventComponent.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Public\VrmImportMaterialSet.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Public\VrmLicenseObject.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Public\VrmMetaObject.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Public\VrmModelActor.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Public\VrmPoseableMeshComponent.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Public\VrmRuntimeSettings.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Public\VrmUtil.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\VRM4U\VRM4U.uplugin">
+      <Filter>Plugins\VRM4U</Filter>
+    </None>
+    <Filter Include="Plugins\VRM4U\Resources">
+      <UniqueIdentifier>{055CB70B-706B-4B2C-8371-7A812BD6884F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\VRM4U\Resources\Icon128.png">
+      <Filter>Plugins\VRM4U\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\VRM4U\Source\VRM4UEditor">
+      <UniqueIdentifier>{D06B8052-3B8D-4A58-920C-4332770C1EE5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\VRM4U\Source\VRM4UEditor\VRM4UEditor.Build.cs">
+      <Filter>Plugins\VRM4U\Source\VRM4UEditor</Filter>
+    </None>
+    <Filter Include="Plugins\VRM4U\Source\VRM4UEditor\Private">
+      <UniqueIdentifier>{57E95558-D339-4EE4-9C2A-123375EE1AA3}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4UEditor\Private\VRM4UEditor.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4UEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4UEditor\Private\VRM4UEditor.h">
+      <Filter>Plugins\VRM4U\Source\VRM4UEditor\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4UEditor\Private\VRM4UEditorLog.h">
+      <Filter>Plugins\VRM4U\Source\VRM4UEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4UEditor\Private\VrmEditorBPFunctionLibrary.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4UEditor\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\VRM4U\Source\VRM4UEditor\Public">
+      <UniqueIdentifier>{274C863B-307C-46D1-B5F7-C7560B054EE8}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4UEditor\Public\VrmEditorBPFunctionLibrary.h">
+      <Filter>Plugins\VRM4U\Source\VRM4UEditor\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VRM4U\Source\VRM4UImporter">
+      <UniqueIdentifier>{F64691B0-FA2C-489B-B2B0-0B4C75918352}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\VRM4UImporter.Build.cs">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter</Filter>
+    </None>
+    <Filter Include="Plugins\VRM4U\Source\VRM4UImporter\Private">
+      <UniqueIdentifier>{280DEAAA-A6EF-414A-819E-FFDDE6FE6009}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\AnimGraphNode_VrmCopyHandBone.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\AnimGraphNode_VrmCopyHandBone.h">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\AnimGraphNode_VrmModifyBoneDynamic.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\AnimGraphNode_VrmModifyBoneDynamic.h">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\AnimGraphNode_VrmModifyBoneList.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\AnimGraphNode_VrmModifyBoneList.h">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\AnimGraphNode_VrmModifyHumanoidBone.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\AnimGraphNode_VrmModifyHumanoidBone.h">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\AnimGraphNode_VrmQuestHandBone.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\AnimGraphNode_VrmQuestHandBone.h">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\AnimGraphNode_VrmRetargetFromMannequin.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\AnimGraphNode_VrmRetargetFromMannequin.h">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\AnimGraphNode_VrmSpringBone.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\AnimGraphNode_VrmSpringBone.h">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\AnimGraphNode_VrmVMC.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\AnimGraphNode_VrmVMC.h">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\VRM4UDetailCustomize.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\VRM4UDetailCustomize.h">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\VRM4UImporterFactory.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\VRM4UImporterFactory.h">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\VRM4UImporterLog.h">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\VRM4UImporterModule.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\VrmAssetListThumbnailRenderer.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\VrmAssetListThumbnailRenderer.h">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\VrmImportUI.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\VrmImportUI.h">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\VrmOptionWindow.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\VrmOptionWindow.h">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VRM4U\Source\VRM4ULoader">
+      <UniqueIdentifier>{15A18A22-C906-4BD5-BC39-C5DB7AABBB80}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\VRM4ULoader.Build.cs">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader</Filter>
+    </None>
+    <None Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\VRM4ULoader_APL.xml">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader</Filter>
+    </None>
+    <Filter Include="Plugins\VRM4U\Source\VRM4ULoader\Private">
+      <UniqueIdentifier>{03FF49F4-C354-4642-A201-903DF19CFA62}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Private\LoaderBPFunctionLibrary.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Private\VRM4ULoaderLog.h">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Private\VRM4ULoaderModule.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Private\VrmAsyncLoadAction.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Private\VrmAsyncLoadAction.h">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Private\VrmConvert.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Private\VrmConvertHumanoid.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Private\VrmConvertMetadata.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Private\VrmConvertModel.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Private\VrmConvertMorphTarget.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Private\VrmConvertPose.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Private\VrmConvertRig.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Private\VrmConvertTexture.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Private\VrmJson.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Private\VrmLoaderComponent.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Private\VrmSkeletalMesh.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Private\VrmSkeletalMeshComponent.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Private\VrmSkeleton.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\VRM4U\Source\VRM4ULoader\Public">
+      <UniqueIdentifier>{B8F0BBF0-F880-4281-A40C-35F7F7312E58}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Public\LoaderBPFunctionLibrary.h">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Public\VrmConvert.h">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Public\VrmConvertHumanoid.h">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Public\VrmConvertMetadata.h">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Public\VrmConvertModel.h">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Public\VrmConvertMorphTarget.h">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Public\VrmConvertRig.h">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Public\VrmConvertTexture.h">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Public\VrmJson.h">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Public\VrmLoaderComponent.h">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Public\VrmSkeletalMesh.h">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Public\VrmSkeletalMeshComponent.h">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Public\VrmSkeleton.h">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VRM4U\Source\VRM4UMisc">
+      <UniqueIdentifier>{9747E319-CEBF-4978-8369-7E07D4EB7063}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\VRM4U\Source\VRM4UMisc\VRM4UMisc.Build.cs">
+      <Filter>Plugins\VRM4U\Source\VRM4UMisc</Filter>
+    </None>
+    <Filter Include="Plugins\VRM4U\Source\VRM4UMisc\Private">
+      <UniqueIdentifier>{68044D30-C860-483F-94C9-DD9416569D9C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4UMisc\Private\VRM4UMisc.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4UMisc\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4UMisc\Private\VRM4UMisc.h">
+      <Filter>Plugins\VRM4U\Source\VRM4UMisc\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4UMisc\Private\VRM4UMiscLog.h">
+      <Filter>Plugins\VRM4U\Source\VRM4UMisc\Private</Filter>
+    </ClInclude>
+    <Filter Include="Source\BladeLight2_UE5">
+      <UniqueIdentifier>{0F89B39E-4389-4418-93BF-68C203FD9C63}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\BladeLight2_UE5\BladeLight2_UE5.Build.cs">
+      <Filter>Source\BladeLight2_UE5</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\BladeLight2_UE5\BladeLight2_UE5.cpp">
+      <Filter>Source\BladeLight2_UE5</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BladeLight2_UE5\BladeLight2_UE5.h">
+      <Filter>Source\BladeLight2_UE5</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BladeLight2_UE5\MyClass.cpp">
+      <Filter>Source\BladeLight2_UE5</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BladeLight2_UE5\MyClass.h">
+      <Filter>Source\BladeLight2_UE5</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

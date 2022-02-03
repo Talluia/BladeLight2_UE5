@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "BladeLight2_UE5",
+			"Path": "G:\\BladeLight2\\BladeLight2_UE5\\Source\\BladeLight2_UE5.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "BladeLight2_UE5Editor",
+			"Path": "G:\\BladeLight2\\BladeLight2_UE5\\Source\\BladeLight2_UE5Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

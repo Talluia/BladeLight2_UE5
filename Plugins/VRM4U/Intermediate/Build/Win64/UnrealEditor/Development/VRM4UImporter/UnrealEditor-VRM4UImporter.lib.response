@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-VRM4UImporter.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"G:\BladeLight2\BladeLight2_UE5\Intermediate\Build\Win64\BladeLight2_UE5Editor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"G:\BladeLight2\BladeLight2_UE5\Plugins\VRM4U\Intermediate\Build\Win64\UnrealEditor\Development\VRM4UImporter\Module.VRM4UImporter.cpp.obj"
+"G:\BladeLight2\BladeLight2_UE5\Plugins\VRM4U\Intermediate\Build\Win64\UnrealEditor\Development\VRM4UImporter\Module.VRM4UImporter.gen.cpp.obj"
+"G:\BladeLight2\BladeLight2_UE5\Plugins\VRM4U\Intermediate\Build\Win64\UnrealEditor\Development\VRM4UImporter\Default.rc2.res"
+/OUT:"G:\BladeLight2\BladeLight2_UE5\Plugins\VRM4U\Intermediate\Build\Win64\UnrealEditor\Development\VRM4UImporter\UnrealEditor-VRM4UImporter.lib"
+/INCLUDE:IMPLEMENT_MODULE_VRM4UImporter

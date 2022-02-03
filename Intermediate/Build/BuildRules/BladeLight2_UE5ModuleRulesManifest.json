@@ -1,0 +1,13 @@
+{
+	"SourceFiles": [
+		"G:\\BladeLight2\\BladeLight2_UE5\\Source\\BladeLight2_UE5\\BladeLight2_UE5.Build.cs",
+		"G:\\BladeLight2\\BladeLight2_UE5\\Plugins\\VRM4U\\Source\\VRM4U\\VRM4U.Build.cs",
+		"G:\\BladeLight2\\BladeLight2_UE5\\Plugins\\VRM4U\\Source\\VRM4UImporter\\VRM4UImporter.Build.cs",
+		"G:\\BladeLight2\\BladeLight2_UE5\\Plugins\\VRM4U\\Source\\VRM4UMisc\\VRM4UMisc.Build.cs",
+		"G:\\BladeLight2\\BladeLight2_UE5\\Plugins\\VRM4U\\Source\\VRM4UEditor\\VRM4UEditor.Build.cs",
+		"G:\\BladeLight2\\BladeLight2_UE5\\Plugins\\VRM4U\\Source\\VRM4ULoader\\VRM4ULoader.Build.cs",
+		"G:\\BladeLight2\\BladeLight2_UE5\\Source\\BladeLight2_UE5.Target.cs",
+		"G:\\BladeLight2\\BladeLight2_UE5\\Source\\BladeLight2_UE5Editor.Target.cs"
+	],
+	"EngineVersion": "5.0.0"
+}
