@@ -1,5 +1,6 @@
 ﻿  '"G:\UE5\UE_5.0EA\Engine\Build\BatchFiles\GetDotnetPath.bat"' is not recognized as an internal or external command,
   operable program or batch file.
   Win64 using Manual SDK 10.0.18362.0
+  Using 'git status' to determine working set for adaptive non-unity build (G:\BladeLight2\BladeLight2_UE5).
   Target is up to date
-  Total execution time: 0.42 seconds
+  Total execution time: 0.52 seconds
